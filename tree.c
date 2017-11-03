@@ -107,7 +107,7 @@ int main(int argc, char **argv)
   setlocale(LC_COLLATE, "");
 
   charset = getcharset();
-  if (charset == NULL && strcmp(nl_langinfo(CODESET), "UTF-8") == 0) {
+  if (charset == NULL) {
     charset = "UTF-8";
   }
 

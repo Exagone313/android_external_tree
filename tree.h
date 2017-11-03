@@ -52,7 +52,6 @@
 #endif
 
 #include <locale.h>
-#include <langinfo.h>
 #include <wchar.h>
 #include <wctype.h>
 
